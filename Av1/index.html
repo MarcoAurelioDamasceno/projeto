@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OriginSix</title>
+  <!-- Icones -->
+  <link rel="stylesheet" href="assets/fonts/style.css" />
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <!-- Style -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Fonte -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header id="header">
+    <nav class="container">
+      <a class="logo" href="#">Middle<span>Earth</span>.</a>
+      <div class="menu">
+        <ul class="grid">
+          <li><a class="title" href="#home">Início</a></li>
+          <li><a class="title" href="#about">Sobre</a></li>
+          <li><a class="title" href="#services">Jogabilidade e Personagens</a></li>
+          <li><a class="title" href="#contact">Criar Personagens</a></li>
+        </ul>
+      </div>
+      <div class="toggle icon-menu"></div>
+      <div class="toggle icon-close"></div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Inicio -->
+    <section class="section" id="home">
+      <div class="container grid">
+        <div class="image">
+          <embed src="https://www.youtube.com/embed/bhSfjt8jQyk" allowfullscreen="true" width="465" height="344">
+        </div>
+        <div class="text">
+          <h2 class="title"> Batalhas na Terra Média </h2>
+          <br>
+          <p>
+            Venha se aventurar nesse mundo cheio de aventuras em um universo que se passa na idade média.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider-1"></div>
+
+    <!-- Sobre -->
+    <section class="section" id="about">
+      <div class="container grid">
+        <div class="image">
+          <img src="./marco.jpeg" alt="Imagem 2" />
+        </div>
+        <div class="text">
+          <h2 class="title">Sobre o autor</h2>
+          <p>
+            Nome: Marco Aurelio Damasceno Faustino - 201908220041
+            <br>
+            Curso: ADS - Analise e Desenvolvimento de Sistemas
+          </p>
+          <br>
+          <p>
+            Estudante de análise e desenvolvimento de sistemas, cursando na estacio de brasilia em taguatinga, nasceu
+            em 4 de julho de 1997. Gosta de desenhar,
+            sempre tenta aprender coisas novas, gosta muito de esportes. Morava numa cidade pequena de goias e agora
+            mora em brasilia, tem um irmão mais novo.
+          </p>
+          <br><br>
+          <h3>Sobre o Trabalho</h3>
+          <br>
+          <p>
+            Disciplina: Desenvolvimento WEB em HTML, CSS, JS e PHP
+            <br>
+            Turma: 1001
+            <br>
+            Semestre: 2
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider-2"></div>
+
+    <!-- Serviços -->
+    <section class="section" id="services">
+      <div class="container grid">
+        <header>
+          <h2 class="title">Jogabilidade e Personagens</h2>
+          <!-- <p class="subtitle">
+            Com mais de 10 anos no mercado, o <strong>Beautysalon</strong> já
+            conquistou clientes de inúmeros países com seus tratamentos
+            exclusivos e totalmente naturais
+          </p> -->
+        </header>
+        <div class="cards grid">
+          <div class="card">
+            <h3 class="title">Batalha</h3>
+            <p>
+              A batalha é realizada em um cenário fixo no qual podem ser alocados até oito
+              jogadores, sendo que só pode haver um personagem de cada nação. O cenário é fixo porque
+              a batalha inteira ocorre neste único cenário escolhido. Dentre os cenários possíveis, o jogo
+              pode definir qualquer uma das oito casas das nações.
+              Não existem alianças e “amizades” entre os personagens, portanto eles se
+              enfrentam em duelos de um contra o outro em cada rodada e o vencedor avança para a
+              próxima rodada. No início da rodada, os personagens são distribuídos aleatoriamente em
+              pares para realizarem a batalha e, caso a quantidade de personagens na batalha seja
+              ímpar, um deles ficará fora da batalha e se classificará automaticamente para a rodada
+              seguinte. Os vencedores de uma rodada são novamente distribuídos aleatoriamente para
+              se enfrentarem em uma nova batalha. As rodadas são repetidas de acordo com a
+              quantidade restante de personagens na arena, até que ocorra a batalha final e seja
+              definido um personagem como o vencedor. O jogador que “sobrou” na rodada anterior não
+              pode sobrar novamente na rodada seguinte.
+            </p>
+          </div>
+          <div class="card">
+            <h3 class="title">Duelo</h3>
+            <p>
+              A batalha é realizada em turnos de duelos diretos entre dois personagens, conforme
+              foi descrito anteriormente. Porém, é preciso descrever com mais detalhes como se deve
+              determinar o vencedor de cada duelo.
+              Antes, deve-se observar que um duelo possui como informações de entrada: o
+              cenário da batalha e os dois personagens do confronto com as suas características. Após o
+              confronto, a informação de saída é o vencedor do confronto com os danos que sofreu e
+              infringiu.
+            </p>
+          </div>
+          <div class="card">
+            <h3 class="title">Características dos Personagens</h3>
+            <p>
+              • Força: a capacidade que o personagem possui de infringir danos no adversário no
+              combate a curta distância;
+              <br><br>
+              • Precisão: a precisão denota a capacidade na qual o personagem tem para infringir
+              danos no adversário à longa distância;
+              <br><br>
+              • Velocidade: o tempo no qual o personagem leva para se aproximar do adversário;
+              <br><br>
+              • Armadura: o quanto reduz o impacto dos ataques do adversário, independente da
+              distância na qual os ataques são realizados;
+              <br><br>
+              • Recuperação: a capacidade de recuperar pontos para a próxima batalha.
+            </p>
+          </div>
+          <div class="card">
+            <h3 class="title">Habilidades</h3>
+            <p>
+              As habilidades que os personagens possuem são força, velocidade, precisão,
+              armadura e recuperação. Além da nacionalidade e das 5 habilidades, o personagem possui
+              seus pontos de energia e um nome para identificá-lo ao longo de suas interações no jogo.
+              No início do jogo, o personagem possui 100 pontos de energia e outros 100 pontos de
+              habilidades que devem ser distribuídos entre as habilidades da forma que o jogador
+              preferir.
+            </p>
+          </div>
+          <div class="card">
+            <h3 class="title">Nações</h3>
+            <p>
+              Neste jogo, foram selecionadas as seguintes nações da Terra-Média: Orc Snaga,
+              Uruk-hai, Cavaleiro de Rohan, Guerreiro de Gondor, Hobbit, Elfo da Floresta, Elfo de
+              Lothlórien e anão.
+              <br><br>
+              A casa de cada nação é, respectivamente, Cirith Ungol, Portão Negro,
+              Abismo de Helm, Minas Tirith, O Condado, Floresta das Trevas ou Mirkwood, Caras
+              Galadhon ou Cidade das Árvores e Colinas de Ferro.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider-1"></div>
+
+    <!-- Dsepoimentos -->
+    <!-- <section class="section" id="testimonials">
+      <div class="container">
+        <header>
+          <h2 class="title">Depoimentos de quem já passou por aqui</h2>
+        </header>
+        <div class="testimonials swiper-container">
+          <div class="swiper-wrapper">
+            <div class="testimonial swiper-slide">
+              <blockquote>
+                <p>
+                  <span>&ldquo;</span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Rerum blanditiis saepe nam excepturi explicabo ipsa error
+                  ipsam neque
+                </p>
+                <cite>
+                  <img src="assets/fotos/10.jpeg" alt="" />
+                  Wanessa Souza
+                </cite>
+              </blockquote>
+            </div>
+
+            <div class="testimonial swiper-slide">
+              <blockquote>
+                <p>
+                  <span>&ldquo;</span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Rerum blanditiis saepe nam excepturi explicabo ipsa error
+                  ipsam neque
+                </p>
+                <cite>
+                  <img src="assets/fotos/56.jpeg" alt="" />
+                  Franciele Venega
+                </cite>
+              </blockquote>
+            </div>
+
+            <div class="testimonial swiper-slide">
+              <blockquote>
+                <p>
+                  <span>&ldquo;</span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Rerum blanditiis saepe nam excepturi explicabo ipsa error
+                  ipsam neque
+                </p>
+                <cite>
+                  <img src="assets/fotos/26.jpeg" alt="" />
+                  Valeska Fabris
+                </cite>
+              </blockquote>
+            </div>
+          </div> -->
+
+    <!-- If we need pagination -->
+    <!-- <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider-2"></div> -->
+
+    <!-- Contato -->
+    <section class="section" id="contact">
+      <div class="container grid">
+        <div class="text">
+          <h2 class="title">Criação de Personagens</h2>
+          <p>
+            OBS: Você pode criar até 8 personagens!
+            <br> <br>
+            Personagem 1 de 8
+          </p>
+          <div class="formulario">
+
+            <input type="checkbox" name="" id=""> Incluir esse personagem na batalha? <p></p>
+            Nome <input type="text" name="" id="">
+            <p></p>
+
+            Nação <p></p>
+            <div class="nacoes">
+              <ul>
+                <li><input type="radio" name="a" id=""> Anão</li>
+                <li><input type="radio" name="a" id=""> Elfo da Folresta</li>
+                <li><input type="radio" name="a" id=""> Hobbit</li>
+                <li><input type="radio" name="a" id=""> Elfo de Lothlórien</li>
+                <li><input type="radio" name="a" id=""> Cavaleiro de Rohan</li>
+                <li><input type="radio" name="a" id=""> Orc Snaga</li>
+                <li><input type="radio" name="a" id=""> Guerreiro de Condor</li>
+                <li><input type="radio" name="a" id=""> Uruk-hai</li>
+              </ul>
+            </div>
+
+            <p></p>
+
+            Habilidades <br><br>
+            <div class="habilidade">
+              Força <input type="number" value="20" autofocus name="" id=""> <br>
+              Precisão <input type="number" value="20" autofocus name="" id=""> <br>
+              Velocidade <input type="number" value="20" autofocus name="" id=""> <br>
+              Armadura <input type="number" value="20" autofocus name="" id=""> <br>
+              Recuperação <input type="number" value="20" autofocus name="" id=""> <br>
+            </div>
+
+            <br>
+            <input class="botao" type="submit" value="Criar Personagem 1">
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <div class="divider-1"></div>
+  </main>
+
+  <footer class="section">
+    <div class="container grid">
+      <div class="brand">
+        <a class="logo logo-alt" href="#home">Middle<span>Earth</span>.</a>
+        <p>©2022 MiddleEarth.</p>
+        <p>Todos os direitos reservados.</p>
+      </div>
+
+      <div class="social grid">
+        <a href="https://instagram.com" target="_blank"><i class="icon-instagram"></i></a>
+        <a href="https://facebook.com" target="_blank"><i class="icon-facebook"></i></a>
+        <a href="https://youtube.com" target="_blank"><i class="icon-youtube"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
+
+
+  <!-- swiper -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- scrollreveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- main.js -->
+  <script src="main.js"></script>
+</body>
+
+</html>
